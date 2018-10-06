@@ -29,7 +29,7 @@ body {
 .btn {
 	display   : block;
 	margin    : auto;
-	margin-top: 200px;
+	margin-top: 20px;
 	width     : 150px;
 	height    : 50px;
 	border    : 2px solid black;
@@ -85,4 +85,10 @@ body {
 	font-size : 80px;
 	width     : 150px;
 	text-align: center;
+}
+
+#pictureWrap {
+	margin: auto;
+	margin-top: 10px;
+	width: 300px;
 }

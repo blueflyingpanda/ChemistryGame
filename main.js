@@ -33,6 +33,7 @@ const answer   = document.querySelector('#answer');
 const question = document.querySelector('#question');
 const timer    = document.querySelector('#timer');
 const result   = document.querySelector('#result');
+const picture  = document.querySelector('#picture');
 
 let currentElement;
 let answers;
@@ -103,6 +104,8 @@ function pickElement(arr) {
 }
 
 function stopGame() {
+	answer.textContent = '';
+
 	phase2.classList.add('hidden');
 	phase3.classList.remove('hidden');
 
@@ -110,8 +113,6 @@ function stopGame() {
 	clearTimeout(TIMEOUT);
 
 	rank();
-
-	console.log(`You've got ${answers.right} right answers and ${answers.wrong} wrong.`);
 }
 
 function rank() {
@@ -119,8 +120,10 @@ function rank() {
 									 `У тебя ${answers.wrong} неправильных ответов.` + '<br />';
 	if (answers.right > answers.wrong) {
 			resultText += `Менделеев бы тобой гордился!`;
+			picture.src = "./images/2.jpg";
 	} else {
 			resultText += `Ты так же далёк от химии, как Водород от Резерфордия в Таблице Менделеева`;
+			picture.src = "./images/3.png";
 	}
 	result.innerHTML = resultText;
 }
