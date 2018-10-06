@@ -41,7 +41,7 @@ let INTERVAL;
 let TIMEOUT;
 
 const ENTER_CODE    = 13;
-const START_TIME    = 3000;
+const START_TIME    = 30000;
 const TIME_INTERVAL = 100;
 
 startBtn.onclick = function() {
