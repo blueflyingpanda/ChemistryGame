@@ -104,7 +104,7 @@ function pickElement(arr) {
 }
 
 function stopGame() {
-	answer.textContent = '';
+	answer.value = '';
 
 	phase2.classList.add('hidden');
 	phase3.classList.remove('hidden');
