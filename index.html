@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Многоатомный Спирт</title>
+		<link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2014/04/02/16/20/chemistry-306984_960_720.png" >
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	
+	<div id="main">
+		<div id="phase1" >
+			<div id="description">
+	            <span> Как хорошо ты знаком с Периодической Системой? Когда ты нажмёшь на START, у тебя запустится таймер. 30 секунд, чтобы вписать как можно больше химических элементов.
+	            </span>
+	        </div>
+
+			<button class="btn" id="startBtn">START</button>
+		</div>
+		<div id="phase2" class="hidden">
+			<div id="timerWrap">
+				<span id="timer"></span>
+			</div>
+			<div id="questionWrap">
+				<span id="question"></span>
+			</div>
+			<div id="answerWrap">
+				<input type="text" id="answer">
+			</div>
+		</div>
+		<div id="phase3" class="hidden">
+			<div id="resultWrap">
+				<span id="result"></span>
+			</div>
+			<button class="btn" id="restartBtn">RESTART</button>
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>

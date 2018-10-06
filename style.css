@@ -1,0 +1,88 @@
+body {
+	background : #F7F7F7;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#pic {
+	background-image: url(images/2.jpg);
+}
+#main {
+	width     : 600px;
+	height    : 700px;
+	background-image: url(images/1.jpg);
+	margin    : 20px auto;
+	padding   : 25px;
+	box-sizing: border-box;
+}
+
+#description {
+	background: #EC2;
+	width     : 80%;
+	margin    : auto;
+	margin-top: 30px;
+	padding   : 10px;
+	box-sizing: border-box;
+	text-align: justify;
+	font-size : 18px;
+}
+
+.btn {
+	display   : block;
+	margin    : auto;
+	margin-top: 200px;
+	width     : 150px;
+	height    : 50px;
+	border    : 2px solid black;
+	outline   : none;
+	cursor    : pointer;
+	font-size : 30px;
+	transition-duration: 0.2s;
+}
+
+.btn:hover {
+	background: yellow;
+	transition-duration: 0.2s;
+}
+
+.hidden {
+	display: none;
+}
+
+#timerWrap {
+	color: white;
+	margin    : 50px;
+	font-size : 80px;
+	text-align: center;
+}
+
+#questionWrap {
+	color: white;
+	margin-top: 180px;
+	font-size : 60px;
+	text-align: center;
+}
+
+#answerWrap {
+	margin-top: 50px;
+	font-size : 60px;
+	text-align: center;
+}
+
+#resultWrap {
+	background: #EC2;
+	width     : 80%;
+	height    : 100px;
+	margin    : auto;
+	margin-top: 30px;
+	padding   : 10px;
+	font-size : 20px;
+}
+
+#answer {
+	outline: none;
+	background-color: yellow;
+	border: none;
+	font-size : 80px;
+	width     : 150px;
+	text-align: center;
+}
