@@ -27,6 +27,7 @@ body {
 }
 
 .btn {
+	background-color: grey;
 	display   : block;
 	margin    : auto;
 	margin-top: 20px;
